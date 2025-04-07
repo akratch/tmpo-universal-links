@@ -1,1 +1,6 @@
-/profile/*   https://apps.apple.com/app/id6535689676   301!
+# web/_redirects
+# Preserve profile paths for deep linking
+/profile/*  /index.html  200
+
+# Default rule that handles other paths
+/*  /index.html  200
